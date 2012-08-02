@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"fileName": {
+			"name": "fileName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "fileName",
+			"order": 0
+		},
+		"fileSize": {
+			"name": "fileSize",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "fileSize",
+			"order": 1
+		},
+		"dateUploaded": {
+			"name": "dateUploaded",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "dateUploaded",
+			"order": 2
+		}
+	}
+}

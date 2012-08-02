@@ -1,0 +1,17 @@
+body {
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#upload-panel {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#upload-panel.hover {
+  background-color: #ffffcc;
+}

@@ -1,0 +1,9 @@
+This is a test app built with Deployd 0.6.0-pre, testing out the new custom resource loading. 
+
+To get it to run, you'll have to create an S3Bucket resource called `/s3bucket` in the dashboard, with the following values:
+
+    {
+      "bucket": "BUCKET-NAME",
+      "secret": "SECRET-KEY",
+      "key": "S3-KEY"
+    }
