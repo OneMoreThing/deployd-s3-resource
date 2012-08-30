@@ -56,8 +56,13 @@
       <h1>Upload</h1>
       <div id="upload-panel" class="well">Drag a file here to upload!</div>
       <div id="uploads">
-
       </div>
+
+      <h1>Upload alternate</h1>
+      <form action="/s3bucket" enctype="multipart/form-data" method="post">
+        <input type="file" name="upload" multiple="multiple" />
+        <button type="submit" class="btn btn-primary">Upload</button>
+      </form>
 
     </div> <!-- /container -->
 
