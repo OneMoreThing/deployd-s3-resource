@@ -38,10 +38,6 @@ $(document).ready(function() {
     xhr.onload = function() {
       $progress.remove();
       $panel.append('<p>Finished!</p>');
-      dpd.files.post({
-          fileName: file.name
-        , fileSize: file.size
-      });
       setTimeout(function() {
         $panel.remove();
       }, 4000);
